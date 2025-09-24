@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "901961647006",
+    "project_id": "nsta-72472",
+    "storage_bucket": "nsta-72472.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901961647006:android:b9026086c4c0af54134c8f",
+        "android_client_info": {
+          "package_name": "com.example.nsta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUYrXPfjrswHMuU-a6O2rdGjjn4HDt1HE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
