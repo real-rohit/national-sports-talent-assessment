@@ -1,0 +1,753 @@
+{
+  "@@locale": "en",
+  "appTitle": "NSTA Athlete",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "discoverYourPotential": "Discover Your Potential",
+  "@discoverYourPotential": {
+    "description": "Main tagline on login screen"
+  },
+  
+  "english": "EN",
+  "@english": {
+    "description": "English language label"
+  },
+  
+  "hindi": "हिंदी",
+  "@hindi": {
+    "description": "Hindi language label"
+  },
+  
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone authentication mode"
+  },
+  
+  "email": "Email",
+  "@email": {
+    "description": "Email authentication mode"
+  },
+  
+  "phoneHint": "Phone (+91...)",
+  "@phoneHint": {
+    "description": "Phone number input hint"
+  },
+  
+  "emailHint": "Email",
+  "@emailHint": {
+    "description": "Email input hint"
+  },
+  
+  "passwordHint": "Password",
+  "@passwordHint": {
+    "description": "Password input hint"
+  },
+  
+  "sending": "Sending...",
+  "@sending": {
+    "description": "Loading state for sending OTP"
+  },
+  
+  "sendOtp": "Send OTP",
+  "@sendOtp": {
+    "description": "Send OTP button text"
+  },
+  
+  "pleaseWait": "Please wait...",
+  "@pleaseWait": {
+    "description": "Loading state text"
+  },
+  
+  "signInRegister": "Sign In / Register",
+  "@signInRegister": {
+    "description": "Sign in/register button text"
+  },
+  
+  "newHereCreateAccount": "New here? Create Account",
+  "@newHereCreateAccount": {
+    "description": "Link to sign up screen"
+  },
+  
+  "signup": "Signup",
+  "@signup": {
+    "description": "Signup screen title"
+  },
+  
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name field label"
+  },
+  
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number field label"
+  },
+  
+  "phoneNumberHint": "Phone number",
+  "@phoneNumberHint": {
+    "description": "Phone number input hint"
+  },
+  
+  "emailAddress": "Email Address",
+  "@emailAddress": {
+    "description": "Email address field label"
+  },
+  
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  
+  "createAccount": "Create Account",
+  "@createAccount": {
+    "description": "Create account button text"
+  },
+  
+  "verifyPhone": "Verify {phoneNumber}",
+  "@verifyPhone": {
+    "description": "Verify OTP screen title",
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String",
+        "description": "The phone number to verify"
+      }
+    }
+  },
+  
+  "enterOtp": "Enter OTP",
+  "@enterOtp": {
+    "description": "OTP input hint"
+  },
+  
+  "verifying": "Verifying...",
+  "@verifying": {
+    "description": "Loading state for verifying OTP"
+  },
+  
+  "verifyOtp": "Verify OTP",
+  "@verifyOtp": {
+    "description": "Verify OTP button text"
+  },
+  
+  "createAthleteProfile": "Create Athlete Profile",
+  "@createAthleteProfile": {
+    "description": "Create profile screen title"
+  },
+  
+  "age": "Age",
+  "@age": {
+    "description": "Age field label"
+  },
+  
+  "enterYourFullName": "Enter your full name",
+  "@enterYourFullName": {
+    "description": "Full name input hint"
+  },
+  
+  "enterYourAge": "Enter your age",
+  "@enterYourAge": {
+    "description": "Age input hint"
+  },
+  
+  "gender": "Gender",
+  "@gender": {
+    "description": "Gender field label"
+  },
+  
+  "selectYourGender": "Select your gender",
+  "@selectYourGender": {
+    "description": "Gender dropdown hint"
+  },
+  
+  "male": "Male",
+  "@male": {
+    "description": "Male gender option"
+  },
+  
+  "female": "Female",
+  "@female": {
+    "description": "Female gender option"
+  },
+  
+  "other": "Other",
+  "@other": {
+    "description": "Other gender option"
+  },
+  
+  "location": "Location",
+  "@location": {
+    "description": "Location field label"
+  },
+  
+  "detectingCity": "Detecting city...",
+  "@detectingCity": {
+    "description": "Location detection loading state"
+  },
+  
+  "enterYourCity": "Enter your city",
+  "@enterYourCity": {
+    "description": "Location input hint"
+  },
+  
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Continue button text"
+  },
+  
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  
+  "account": "Account",
+  "@account": {
+    "description": "Account section title"
+  },
+  
+  "changePassword": "Change password",
+  "@changePassword": {
+    "description": "Change password option"
+  },
+  
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout option"
+  },
+  
+  "appPreferences": "App Preferences",
+  "@appPreferences": {
+    "description": "App preferences section title"
+  },
+  
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications setting"
+  },
+  
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  
+  "data": "Data",
+  "@data": {
+    "description": "Data section title"
+  },
+  
+  "syncStatus": "Sync status",
+  "@syncStatus": {
+    "description": "Sync status option"
+  },
+  
+  "upToDate": "Up to date",
+  "@upToDate": {
+    "description": "Sync status text"
+  },
+  
+  "storageUsed": "Storage used",
+  "@storageUsed": {
+    "description": "Storage used option"
+  },
+  
+  "clearCache": "Clear cache",
+  "@clearCache": {
+    "description": "Clear cache option"
+  },
+  
+  "info": "Info",
+  "@info": {
+    "description": "Info snackbar title"
+  },
+  
+  "error": "Error",
+  "@error": {
+    "description": "Error snackbar title"
+  },
+  
+  "success": "Success",
+  "@success": {
+    "description": "Success snackbar title"
+  },
+  
+  "failedDueTo": "Failed Due to",
+  "@failedDueTo": {
+    "description": "Failed snackbar title"
+  },
+  
+  "pleaseFillAllFields": "Please fill all fields",
+  "@pleaseFillAllFields": {
+    "description": "Validation error message"
+  },
+  
+  "enterPhoneCountryCode": "Enter phone + country code",
+  "@enterPhoneCountryCode": {
+    "description": "Phone validation error"
+  },
+  
+  "enterEmailPassword": "Enter email & password",
+  "@enterEmailPassword": {
+    "description": "Email/password validation error"
+  },
+  
+  "failedToRetrieveUserData": "Failed to retrieve user data",
+  "@failedToRetrieveUserData": {
+    "description": "User data retrieval error"
+  },
+  
+  "enterOtpError": "Enter OTP",
+  "@enterOtpError": {
+    "description": "OTP validation error"
+  },
+  
+  "pleaseFillAllRequiredFields": "Please fill all required fields",
+  "@pleaseFillAllRequiredFields": {
+    "description": "Required fields validation error"
+  },
+  
+  "profileUpdatedSuccessfully": "Profile updated successfully",
+  "@profileUpdatedSuccessfully": {
+    "description": "Profile update success message"
+  },
+  
+  "permissionDenied": "Permission Denied",
+  "@permissionDenied": {
+    "description": "Location permission denied message"
+  },
+  
+  "unknown": "Unknown",
+  "@unknown": {
+    "description": "Unknown location message"
+  },
+  
+  "errorFetchingLocation": "Error fetching location",
+  "@errorFetchingLocation": {
+    "description": "Location fetch error message"
+  },
+
+  "newTest": "New Test",
+  "verticalJump": "Vertical Jump",
+  "recordJump": "Record Jump",
+  "startRecording": "Start Recording",
+  "stopAndProcess": "Stop & Process",
+  "verticalJumpTest": "Vertical Jump test",
+  "positionInstruction": "Position yourself to match the silhouette, then start recording.",
+  "jump": "Jump",
+  "cm": "cm",
+  "jumpResult": "Jump Result",
+  "measuredJump": "Measured jump: {value} cm",
+  "@measuredJump": { "placeholders": { "value": { "type": "num" } } },
+  "ok": "OK",
+  "showResult": "Show Result",
+  "shuttleRun": "Shuttle Run",
+  "enduranceRun": "Endurance Run",
+  "sitUps": "Sit-ups",
+  "heightWeight": "Height / Weight",
+  "noUserLoggedIn": "No user logged in",
+  "userDataNotFound": "User data not found",
+  "score": "Score: {value}",
+  "@score": { "placeholders": { "value": { "type": "num" } } },
+  "heightCm": "Height (cm)",
+  "weightKg": "Weight (kg)",
+  "sportPreferenceOptional": "Sport Preference (Optional)",
+  "football": "Football",
+  "basketball": "Basketball",
+  "cricket": "Cricket",
+  "yourProgress": "Your Progress",
+  "lineChart": "Line Chart",
+  "testResults": "Test Results",
+  "chartPlaceholder": "Chart Placeholder",
+  "searchAthletes": "Search athletes",
+  "yourHeightCm": "Your height (cm)",
+  "pleaseEnterHeightWeight": "Please enter height and weight",
+  "profileUpdateFailed": "Profile update failed",
+  
+  "height": "Height",
+  "weight": "Weight",
+  "sitAndReach": "Sit and Reach",
+  "standingVerticalJump": "Standing Vertical Jump",
+  "standingBroadJump": "Standing Broad Jump",
+  "medicineBallThrow": "Medicine Ball Throw",
+  "thirtyMeterSprint": "30m Standing Start",
+  "fourByTenShuttleRun": "4 x 10m Shuttle Run",
+  "sitUps": "Sit-ups",
+  "enduranceRun": "Endurance Run",
+  "moreTests": "More Tests",
+  "startTest": "Start Test",
+  "watchDemo": "Watch Demo",
+  "flexibility": "Flexibility",
+  "lowerBodyExplosiveStrength": "Lower Body Explosive Strength",
+  "upperBodyStrength": "Upper Body Strength",
+  "speed": "Speed",
+  "agility": "Agility",
+  "coreStrength": "Core Strength",
+  "endurance": "Endurance",
+  "standStraightJumpHigh": "Stand straight, jump as high as possible. Ensure camera captures full body.",
+  "sitReachInstruction": "Sit with legs straight, reach forward as far as possible. Hold for 3 seconds.",
+  "broadJumpInstruction": "Stand behind line, jump forward as far as possible with both feet together.",
+  "medicineBallInstruction": "Sit with back against wall, throw medicine ball as far as possible.",
+  "sprintInstruction": "Sprint 30 meters from standing start. Run in straight line.",
+  "shuttleRunInstruction": "Run back and forth between two lines 10 meters apart, 4 times total.",
+  "sitUpsInstruction": "Lie on back, knees bent, perform sit-ups for 1 minute. Count repetitions.",
+  "enduranceRunInstruction": "Run continuously for 800m (U-12) or 1.6km (12+ years). Maintain steady pace.",
+  "heightWeightInstruction": "Stand straight against wall for height. Step on scale for weight measurement.",
+  "testDescription": "Test Description",
+  "qualityTested": "Quality Tested",
+  "hi": "Hi",
+  
+  "enduranceTest": "Endurance Test",
+  "sitUpsTest": "Sit-Ups Test",
+  "heightWeightTest": "Height & Weight",
+  "shuttleRunTest": "Shuttle Run",
+  "recordJump": "Record Jump",
+  "testScreenComingSoon": "Test screen coming soon!",
+  "demoVideoComingSoon": "Demo video coming soon!",
+  "enterData": "Enter Data",
+  "howToMeasure": "How to Measure",
+  "runSetDistance": "Run a set distance or for a specified duration to test your cardiovascular fitness. Keep the runner in frame.",
+  "lieDownKneesBent": "Lie down with your knees bent and perform as many sit-ups as you can. Keep your full body in the frame.",
+  "enterHeightWeightAccurately": "Enter your height and weight accurately. This information is crucial for your athletic profile.",
+  "runBetweenMarkedPoints": "Run between two marked points as fast as possible. Ensure the camera captures the entire running path.",
+  "pressStartToRecord": "Press start to record jump",
+  "recording": "Recording...",
+  "processingVideo": "Processing video...",
+  "videoProcessed": "Video processed!",
+  "maxJumpHeight": "Max Jump Height: {value} cm",
+  "@maxJumpHeight": { "placeholders": { "value": { "type": "num" } } },
+  "startRecording": "Start Recording",
+  "stopAndProcess": "Stop & Process",
+  "jumpResult": "Jump Result",
+  "measuredJump": "Measured jump: {value} cm",
+  "@measuredJump": { "placeholders": { "value": { "type": "num" } } },
+  "showResult": "Show Result",
+  "yourHeightCm": "Your height (cm)",
+  "jump": "Jump: {value} cm",
+  "@jump": { "placeholders": { "value": { "type": "String" } } },
+  
+  "myProfile": "My Profile",
+  "noUserLoggedIn": "No user logged in",
+  "userDataNotFound": "User data not found",
+  "myTests": "My Tests",
+  "achievements": "Achievements",
+  "score": "Score: {value}",
+  "@score": { "placeholders": { "value": { "type": "String" } } },
+  "id": "ID",
+  "age": "Age",
+  "gender": "Gender",
+  "location": "Location",
+  "verticalJump": "Vertical Jump",
+  "sprint": "Sprint",
+  "inches": "inches",
+  "seconds": "seconds",
+  
+  "leaderboard": "Leaderboard",
+  "global": "Global",
+  "ageGroup": "Age Group",
+  "localCenter": "Local Center",
+  "searchAthletes": "Search athletes",
+  "athlete": "Athlete",
+  "home": "Home",
+  
+  "editDetails": "Edit Details",
+  "@editDetails": {
+    "description": "Edit details screen title"
+  },
+  
+  "name": "Name",
+  "@name": {
+    "description": "Name field label"
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  
+  "nameCannotBeEmpty": "Name cannot be empty",
+  "@nameCannotBeEmpty": {
+    "description": "Name validation error message"
+  },
+  
+  "enterValidEmail": "Enter a valid email",
+  "@enterValidEmail": {
+    "description": "Email validation error message"
+  },
+  
+  "invalidPhoneNumber": "Invalid phone number",
+  "@invalidPhoneNumber": {
+    "description": "Phone number validation error message"
+  },
+  
+  "detailsUpdatedSuccessfully": "Details updated successfully!",
+  "@detailsUpdatedSuccessfully": {
+    "description": "Success message when details are updated"
+  },
+  
+  "sport": "Sport",
+  "@sport": {
+    "description": "Sport field label"
+  },
+  
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number field label"
+  },
+  
+  "age": "Age",
+  "@age": {
+    "description": "Age field label"
+  },
+  
+  "height": "Height",
+  "@height": {
+    "description": "Height field label"
+  },
+  
+  "weight": "Weight",
+  "@weight": {
+    "description": "Weight field label"
+  },
+  
+  "heightCm": "Height (cm)",
+  "@heightCm": {
+    "description": "Height input hint with unit"
+  },
+  
+  "weightKg": "Weight (kg)",
+  "@weightKg": {
+    "description": "Weight input hint with unit"
+  },
+  
+  "sports": "Sports",
+  "@sports": {
+    "description": "Sports field label"
+  },
+  
+  "enterValidPhoneNumber": "Enter a valid phone number",
+  "@enterValidPhoneNumber": {
+    "description": "Phone number validation error"
+  },
+  
+  "enterValidAge": "Enter a valid age",
+  "@enterValidAge": {
+    "description": "Age validation error message"
+  },
+  
+  "enterValidHeight": "Enter a valid height",
+  "@enterValidHeight": {
+    "description": "Height validation error message"
+  },
+  
+  "enterValidWeight": "Enter a valid weight",
+  "@enterValidWeight": {
+    "description": "Weight validation error message"
+  },
+  
+  "sportsCannotBeEmpty": "Sports cannot be empty",
+  "@sportsCannotBeEmpty": {
+    "description": "Sports validation error message"
+  },
+  
+  "failedToLoadData": "Failed to load data: {error}",
+  "@failedToLoadData": {
+    "description": "Error message when loading user data fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "The error message"
+      }
+    }
+  },
+  
+  "failedToSaveData": "Failed to save data: {error}",
+  "@failedToSaveData": {
+    "description": "Error message when saving user data fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "description": "The error message"
+      }
+    }
+  },
+  
+  "pleaseSelectGender": "Please select gender",
+  "@pleaseSelectGender": {
+    "description": "Gender selection validation error message"
+  },
+  
+  "male": "Male",
+  "@male": {
+    "description": "Male gender option"
+  },
+  
+  "female": "Female", 
+  "@female": {
+    "description": "Female gender option"
+  },
+  
+  "other": "Other",
+  "@other": {
+    "description": "Other gender option"
+  },
+  
+  "profileSetup": "Profile Setup",
+  "@profileSetup": {
+    "description": "Profile setup screen title"
+  },
+  
+  "pleaseEnterHeightWeight": "Please enter height and weight",
+  "@pleaseEnterHeightWeight": {
+    "description": "Validation error message for missing height and weight"
+  },
+  
+  "profileUpdatedSuccessfully": "Profile updated successfully",
+  "@profileUpdatedSuccessfully": {
+    "description": "Success message when profile is updated"
+  },
+  
+  "profileUpdateFailed": "Profile update failed",
+  "@profileUpdateFailed": {
+    "description": "Error message when profile update fails"
+  },
+  
+  "sportPreferenceOptional": "Sport Preference (Optional)",
+  "@sportPreferenceOptional": {
+    "description": "Sport preference field label"
+  },
+  
+  "selectASport": "Select a sport",
+  "@selectASport": {
+    "description": "Sport dropdown hint text"
+  },
+  
+  "football": "Football",
+  "@football": {
+    "description": "Football sport option"
+  },
+  
+  "basketball": "Basketball",
+  "@basketball": {
+    "description": "Basketball sport option"
+  },
+  
+  "cricket": "Cricket",
+  "@cricket": {
+    "description": "Cricket sport option"
+  },
+  
+  "saveAndGoToDashboard": "Save & Go To Dashboard",
+  "@saveAndGoToDashboard": {
+    "description": "Save profile button label"
+  },
+
+  "userId": "User Id",
+  "@userId": {
+    "description": "User Id"
+  },
+  
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": {
+    "description": "Delete account option"
+  },
+  
+  "oldPassword": "Old Password",
+  "@oldPassword": {
+    "description": "Old password field label"
+  },
+  
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "New password field label"
+  },
+  
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password field label"
+  },
+  
+  "updatePassword": "Update Password",
+  "@updatePassword": {
+    "description": "Update password button text"
+  },
+  
+  "enterOldPassword": "Enter old password",
+  "@enterOldPassword": {
+    "description": "Old password validation error"
+  },
+  
+  "passwordTooShort": "Password too short",
+  "@passwordTooShort": {
+    "description": "Password length validation error"
+  },
+  
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": {
+    "description": "Password confirmation validation error"
+  },
+  
+  "passwordUpdated": "Password updated",
+  "@passwordUpdated": {
+    "description": "Password update success message"
+  },
+  
+  "deleteAccountRequest": "Delete Account Request",
+  "@deleteAccountRequest": {
+    "description": "Delete account dialog title"
+  },
+  
+  "fullName": "Full Name",
+  "@fullName": {
+    "description": "Full name field in delete account form"
+  },
+  
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number field in delete account form"
+  },
+  
+  "reason": "Reason",
+  "@reason": {
+    "description": "Reason field in delete account form"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit button text"
+  },
+  
+  "enterYourName": "Enter your name",
+  "@enterYourName": {
+    "description": "Name validation error in delete account form"
+  },
+  
+  "enterYourEmail": "Enter your email",
+  "@enterYourEmail": {
+    "description": "Email validation error in delete account form"
+  },
+  
+  "enterYourNumber": "Enter your number",
+  "@enterYourNumber": {
+    "description": "Phone number validation error in delete account form"
+  },
+  
+  "enterReason": "Enter reason",
+  "@enterReason": {
+    "description": "Reason validation error in delete account form"
+  },
+  
+  "deleteRequestSubmitted": "Delete request submitted",
+  "@deleteRequestSubmitted": {
+    "description": "Delete request success message"
+  }
+}

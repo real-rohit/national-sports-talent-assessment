@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SAI Sports Assessment Admin Panel Design System */
+
+@layer base {
+  :root {
+    /* Base colors */
+    --background: 0 0% 100%;
+    --foreground: 215 25% 27%;
+
+    /* SAI Brand Colors */
+    --primary: 220 91% 42%;  /* SAI Blue */
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 220 91% 92%;
+
+    /* Status & Accent Colors */
+    --success: 142 76% 36%;  /* Performance Green */
+    --success-foreground: 0 0% 100%;
+    --success-muted: 142 76% 95%;
+    
+    --warning: 38 92% 50%;   /* Alert Orange */  
+    --warning-foreground: 0 0% 100%;
+    --warning-muted: 38 92% 95%;
+    
+    --danger: 0 84% 60%;     /* Rejection Red */
+    --danger-foreground: 0 0% 100%;
+    --danger-muted: 0 84% 95%;
+
+    /* Neutral System */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+    --card-border: 220 13% 91%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 215 25% 27%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 215 25% 27%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 91% 42%;
+
+    --radius: 0.5rem;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(220 91% 52%));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(142 76% 46%));
+    
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 215 25% 27%;
+    --sidebar-primary: 220 91% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 215 25% 27%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 220 91% 42%;
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 215 28% 7%;
+    --foreground: 220 14% 96%;
+    
+    --primary: 220 91% 52%;
+    --primary-foreground: 215 28% 7%;
+    --primary-muted: 220 91% 12%;
+    
+    --success: 142 76% 46%;
+    --success-foreground: 215 28% 7%;
+    --success-muted: 142 76% 15%;
+    
+    --warning: 38 92% 60%;
+    --warning-foreground: 215 28% 7%;
+    --warning-muted: 38 92% 15%;
+    
+    --danger: 0 84% 70%;
+    --danger-foreground: 215 28% 7%;
+    --danger-muted: 0 84% 15%;
+
+    --card: 215 28% 9%;
+    --card-foreground: 220 14% 96%;
+    --card-border: 215 20% 20%;
+
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 220 14% 96%;
+
+    --muted: 215 20% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 215 20% 15%;
+    --accent-foreground: 220 14% 96%;
+
+    --destructive: 0 84% 70%;
+    --destructive-foreground: 215 28% 7%;
+
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 220 91% 52%;
+    
+    --sidebar-background: 215 28% 8%;
+    --sidebar-foreground: 220 14% 96%;
+    --sidebar-primary: 220 91% 52%;
+    --sidebar-primary-foreground: 215 28% 8%;
+    --sidebar-accent: 215 20% 15%;
+    --sidebar-accent-foreground: 220 14% 96%;
+    --sidebar-border: 215 20% 20%;
+    --sidebar-ring: 220 91% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .metric-card {
+    @apply bg-card border border-border rounded-lg p-6 transition-all duration-200 hover:shadow-lg;
+  }
+  
+  .status-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .status-approved {
+    @apply bg-success-muted text-success-foreground;
+  }
+  
+  .status-pending {
+    @apply bg-warning-muted text-warning-foreground;
+  }
+  
+  .status-flagged {
+    @apply bg-danger-muted text-danger-foreground;
+  }
+}
