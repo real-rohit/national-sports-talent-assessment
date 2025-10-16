@@ -9,6 +9,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.62"
+<<<<<<< HEAD
   archive:
     dependency: transitive
     description:
@@ -17,6 +18,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.7"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   async:
     dependency: transitive
     description:
@@ -177,6 +180,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.3"
+<<<<<<< HEAD
   ffi:
     dependency: transitive
     description:
@@ -241,6 +245,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.3"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   firebase_core:
     dependency: "direct main"
     description:
@@ -265,6 +271,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
+<<<<<<< HEAD
   fixnum:
     dependency: transitive
     description:
@@ -273,6 +280,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   flutter:
     dependency: "direct main"
     description: flutter
@@ -309,6 +318,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   geocoding:
     dependency: "direct dev"
     description:
@@ -533,6 +543,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.20.2"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   leak_tracker:
     dependency: transitive
     description:
@@ -605,6 +617,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+<<<<<<< HEAD
   path_provider:
     dependency: "direct main"
     description:
@@ -717,6 +730,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.6"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -725,6 +740,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+<<<<<<< HEAD
   posix:
     dependency: transitive
     description:
@@ -733,6 +749,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.3"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   sky_engine:
     dependency: transitive
     description: flutter
@@ -802,6 +820,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.6"
+<<<<<<< HEAD
   typed_data:
     dependency: transitive
     description:
@@ -818,6 +837,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.5.1"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   vector_math:
     dependency: transitive
     description:
@@ -826,6 +847,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.0"
+<<<<<<< HEAD
   video_player:
     dependency: "direct main"
     description:
@@ -874,6 +896,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.6"
+=======
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   vm_service:
     dependency: transitive
     description:
@@ -881,7 +905,11 @@ packages:
       sha256: f6be3ed8bd01289b34d679c2b62226f63c0e69f9fd2e50a6b3c1c729a961041b
       url: "https://pub.dev"
     source: hosted
+<<<<<<< HEAD
     version: "14.3.0"
+=======
+    version: "15.0.0"
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
   web:
     dependency: transitive
     description:
@@ -890,6 +918,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+<<<<<<< HEAD
   xdg_directories:
     dependency: transitive
     description:
@@ -909,3 +938,8 @@ packages:
 sdks:
   dart: ">=3.8.0-0 <4.0.0"
   flutter: ">=3.27.0"
+=======
+sdks:
+  dart: ">=3.8.1 <4.0.0"
+  flutter: ">=3.22.0"
+>>>>>>> ac842d53e49fc0db30f308fb41eda09839c372b5
